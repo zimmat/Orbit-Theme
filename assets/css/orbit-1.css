@@ -56,7 +56,7 @@ p {
   background: #42A8C0;
   position: absolute;
   right: 0;
-  width: 240px;
+  width: 340px;
   height: 100%;
   min-height: 800px;
   color: #fff;
@@ -64,6 +64,12 @@ p {
 
 .sidebar-wrapper a {
   color: #fff;
+}
+.profile{
+  border-radius: 50%;
+  height: 120px;
+  width: 120px;
+  filter: grayscale(100%)
 }
 
 .sidebar-wrapper .profile-container {
@@ -99,7 +105,7 @@ p {
 }
 
 .sidebar-wrapper .contact-list li {
-  margin-bottom: 15px;
+  margin-bottom: 5px;
 }
 
 .sidebar-wrapper .contact-list li:last-child {
@@ -130,6 +136,7 @@ p {
 
 .sidebar-wrapper .education-container .item {
   margin-bottom: 15px;
+  padding-top: 10px;
 }
 
 .sidebar-wrapper .education-container .item:last-child {
@@ -181,7 +188,7 @@ p {
 .main-wrapper {
   background: #fff;
   padding: 60px;
-  padding-right: 300px;
+  padding-right: 400px;
 }
 
 .main-wrapper .section-title {
